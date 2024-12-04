@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+p{
+    text-indent: 45px;
+    padding: 10px 10px;
+    margin: 5px;
+    font-size: 12.5pt;
+    text-align: justify;
+}
+/*Formatação do Cabeçalho*/
+header{
+    padding: 10px;
+}
+header h1{
+    text-align: center;
+    font-size: 2.6em;
+    margin-bottom: .2em;
+}
+header h3{
+    text-align: center;
+    font-size: 1.4em;
+}
+/*
+header p{
+    margin: 1.6em 0 0 0;
+}
+    */
+header div.dias{
+    display: flex;
+    width: 100%;
+    margin: 1.2em 0 0 0;
+    align-items: center;
+}
+div.dias ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    font-size: 1.2em;
+    align-items: center;
+}
+
+div.dias ul li{
+    display: flex;
+    flex-grow: 200;
+    padding: .6em;
+    background-color: rgba(0, 0, 0, 0.137);
+    margin: 1px;
+    cursor: pointer;
+}
+
+div.dias ul li:hover{
+    display: flex;
+    flex-grow: 200;
+    padding: .6em;
+    background-color: rgba(255, 255, 255, 0.137);
+    margin: 1px;
+}
+
+div.dias ul li.dia-ativo{
+    display: flex;
+    flex-grow: 200;
+    padding: .6em;
+    background-color: rgba(255, 255, 255, 0.137);
+    margin: 1px;
+}
+header hr{
+    width: 35%;
+    height: 1px;
+    flex-grow: 200;
+    background-color: black;
+}
+
+/*formatação do corpo de contiodo*/
+
+section#corpo{
+    background-color: rgba(255, 255, 255, 0.568);
+    width: 90%; height: auto;
+    padding: 1em 2em;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+section.infor-corpo{
+    width: 70vw;
+    height: auto;
+    background-color: gray;
+    color: aliceblue;
+}
+
+section.infor-corpo .main-title{
+    width: 65vw;
+    height: auto;
+    background-color: rgb(73, 73, 73);
+    color: aliceblue;
+}
+
+section#corpo .main-title{
+    text-align: center;
+    padding: .3em;
+    font-weight: bolder;
+    font-size: 1.6em;
+}
+
+section#corpo .sub-title{
+    text-indent: 5px;
+    padding: .2em;
+    font-weight: bolder;
+    font-size: 1.2em;
+    color: blue;
+}
+
+
+section#corpo ul{
+    font-size: 12.5pt;
+    list-style: none;
+}
+
+section#corpo ul li{
+    text-indent: 55px;
+    padding: 2px 10px;
+}
+/**/
+aside.destaque{
+    background-color: rgba(229, 231, 231, 0.082);
+    width: 35vw;
+    float: left;
+    margin: -3.3em 0;
+    border-left: black solid 2px;
+    height: auto;
+}
+
+aside.destaque h1.destaque-title{
+    text-transform: uppercase;
+    color:blue;
+}
+
+aside.destaque div.dest{
+    border-bottom: gray solid 1px;
+    padding: 5px;
+    margin: .5em 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-grow: 200;
+}
+
+aside.destaque div.dest:hover{
+    border-bottom: gray solid 1px;
+    background-color: rgba(70, 70, 70, 0.582);
+}
+
+div.div-img{
+    background-color: black;
+    width: 150px;
+
+}
